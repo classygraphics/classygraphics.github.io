@@ -1,12 +1,8 @@
 <br />
 
 <p align="center">
-  <img src="assets/images/juanmartinezlogo1.png" width="180"/>
+  <img src="assets/images/juanmartinezlogo1.png" width="260"/>
 </p>
-
-<br />
-
-<h1 align="center">Juan Martínez</h1>
 
 <br />
 
@@ -14,7 +10,7 @@
 Diseñador creativo y UI/UX  
 <br />
 Branding · Comunicación visual · Audiovisual
-</p>
+
 
 <br />
 
@@ -48,5 +44,5 @@ https://classygraphics.github.io/
 jmartinez.graphic@gmail.com
 
 <br />
-
+</p>
 ---
