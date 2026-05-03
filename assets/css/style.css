@@ -1674,7 +1674,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 950px;
+    width: 980px;
     box-shadow: var(--shadow-5);
   }
 
