@@ -1,16 +1,52 @@
+<br />
+
 <p align="center">
-  <img src="./assets/juanmartinezlogo1.png" width="180"/>
+  <img src="assets/images/juanmartinezlogo1.png" width="180"/>
 </p>
 
-# Juan Martínez
+<br />
 
-Diseñador creativo y UI/UX con enfoque en branding, comunicación visual y producción audiovisual.
+<h1 align="center">Juan Martínez</h1>
 
-## Perfil
-Desarrollo piezas visuales para marcas y entornos digitales, combinando dirección creativa, diseño gráfico y producción audiovisual. Experiencia en diseño de interfaces y producto digital aplicada cuando el proyecto lo requiere.
+<br />
+
+<p align="center">
+Diseñador creativo y UI/UX  
+<br />
+Branding · Comunicación visual · Audiovisual
+</p>
+
+<br />
+
+---
+
+<br />
+
+## About
+
+Desarrollo piezas visuales para marcas y entornos digitales, combinando dirección creativa, diseño gráfico y producción audiovisual.  
+Experiencia en diseño de interfaces aplicada cuando el proyecto lo requiere.
+
+<br />
+
+---
+
+<br />
 
 ## Portafolio
-Proyectos seleccionados disponibles en el sitio web.
+
+https://classygraphics.github.io/
+
+<br />
+
+---
+
+<br />
 
 ## Contacto
+
 jmartinez.graphic@gmail.com
+
+<br />
+
+---
