@@ -411,8 +411,9 @@ main {
 }
 
 .contact-info {
-  max-width: calc(100% - 46px);
-  width: calc(100% - 46px);
+  
+	flex: 1;
+  min-width: 0;
 }
 
 .contact-title {
@@ -1674,7 +1675,7 @@ textarea.form-input::-webkit-resizer { display: none; }
    */
 
   .sidebar, article {
-    width: 980px;
+    width: 950px;
     box-shadow: var(--shadow-5);
   }
 
