@@ -1,4 +1,6 @@
-
+<p align="center">
+  <img src="./assets/juanmartinezlogo1.png" width="180"/>
+</p>
 
 # Juan Martínez
 
