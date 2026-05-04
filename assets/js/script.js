@@ -144,16 +144,28 @@ const pages = document.querySelectorAll("[data-page]");
 for (let i = 0; i < navigationLinks.length; i++) {
   navigationLinks[i].addEventListener("click", function () {
 
+    const target = this.dataset.page;
+
+    // activar páginas
     for (let j = 0; j < pages.length; j++) {
-      if (this.dataset.page === pages[j].dataset.page) {
+      if (pages[j].dataset.page === target) {
         pages[j].classList.add("active");
-        navigationLinks[i].classList.add("active");
-        window.scrollTo(0, 0);
       } else {
         pages[j].classList.remove("active");
-        navigationLinks[j].classList.remove("active");
       }
     }
+
+    // activar botones
+    for (let k = 0; k < navigationLinks.length; k++) {
+      navigationLinks[k].classList.remove("active");
+    }
+
+    this.classList.add("active");
+
+    window.scrollTo(0, 0);
+
+  });
+}
 
   });
 }
