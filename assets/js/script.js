@@ -140,7 +140,7 @@ for (let i = 0; i < formInputs.length; i++) {
 document.addEventListener("DOMContentLoaded", () => {
 
   const navigationLinks = document.querySelectorAll("[data-nav-link]");
-  const pages = document.querySelectorAll("[data-page]");
+  const pages = document.querySelectorAll("article[data-page]");
 
   navigationLinks.forEach(link => {
     link.addEventListener("click", function () {
