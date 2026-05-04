@@ -137,30 +137,20 @@ for (let i = 0; i < formInputs.length; i++) {
 
 
 // page navigation variables
-document.addEventListener("DOMContentLoaded", () => {
+navigationLinks.forEach(link => {
+  link.addEventListener("click", function () {
 
-  const navigationLinks = document.querySelectorAll("[data-nav-link]");
-  const pages = document.querySelectorAll("article[data-page]");
+    const target = this.dataset.page;
 
-  navigationLinks.forEach(link => {
-    link.addEventListener("click", function () {
-
-      const target = this.dataset.page;
-
-      pages.forEach(page => {
-        if (page.dataset.page === target) {
-          page.classList.add("active");
-        } else {
-          page.classList.remove("active");
-        }
-      });
-
-      navigationLinks.forEach(btn => btn.classList.remove("active"));
-      this.classList.add("active");
-
-      window.scrollTo(0, 0);
-
+    document.querySelectorAll("article[data-page]").forEach(page => {
+      page.classList.toggle("active", page.dataset.page === target);
     });
-  });
 
+    navigationLinks.forEach(btn => {
+      btn.classList.toggle("active", btn.dataset.page === target);
+    });
+
+    window.scrollTo(0, 0);
+
+  });
 });
