@@ -140,32 +140,20 @@ for (let i = 0; i < formInputs.length; i++) {
 const navigationLinks = document.querySelectorAll("[data-nav-link]");
 const pages = document.querySelectorAll("[data-page]");
 
-// add event to all nav link
-for (let i = 0; i < navigationLinks.length; i++) {
-  navigationLinks[i].addEventListener("click", function () {
+navigationLinks.forEach(link => {
+  link.addEventListener("click", function () {
 
     const target = this.dataset.page;
 
-    // activar páginas
-    for (let j = 0; j < pages.length; j++) {
-      if (pages[j].dataset.page === target) {
-        pages[j].classList.add("active");
-      } else {
-        pages[j].classList.remove("active");
-      }
-    }
+    pages.forEach(page => {
+      page.classList.toggle("active", page.dataset.page === target);
+    });
 
-    // activar botones
-    for (let k = 0; k < navigationLinks.length; k++) {
-      navigationLinks[k].classList.remove("active");
-    }
-
-    this.classList.add("active");
+    navigationLinks.forEach(btn => {
+      btn.classList.toggle("active", btn.dataset.page === target);
+    });
 
     window.scrollTo(0, 0);
 
   });
-}
-
-  });
-}
+});
